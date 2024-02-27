@@ -13,6 +13,10 @@
 
     <properties>
 
+    <sonar.host.url>http://72.17.0.2:9000/</sonar.host.url>
+    <sonar.login>squ_179f22abb5c1c0a7b3ca3c8f30566dc8843b4f3d</sonar.login>
+
+
         <!-- Generic properties -->
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -293,6 +297,14 @@
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
+    <plugins>
+        <!-- Add the SonarQube plugin -->
+        <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.6.0</version> 
+        </plugin>
+    </plugins>
         <defaultGoal>install</defaultGoal>
         <finalName>petclinic</finalName>
         <resources>
