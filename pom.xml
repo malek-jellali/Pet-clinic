@@ -13,8 +13,8 @@
 
     <properties>
 
-    <sonar.host.url>http://72.17.0.2:9000/</sonar.host.url>
-    <sonar.login>squ_179f22abb5c1c0a7b3ca3c8f30566dc8843b4f3d</sonar.login>
+    <sonar.host.url>http://72.17.0.2:9001/</sonar.host.url>
+    <sonar.login>squ_eb8f84182d255fadbe230724608849f1250c6a7c</sonar.login>
 
 
         <!-- Generic properties -->
