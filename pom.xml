@@ -13,7 +13,7 @@
 
     <properties>
 
-    <sonar.host.url>http://72.17.0.2:9001/</sonar.host.url>
+    <sonar.host.url>http://localhost:9001//</sonar.host.url>
     <sonar.login>squ_eb8f84182d255fadbe230724608849f1250c6a7c</sonar.login>
 
 
