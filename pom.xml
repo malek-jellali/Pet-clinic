@@ -14,7 +14,7 @@
     <properties>
 
     <sonar.host.url>http://localhost:9001//</sonar.host.url>
-    <sonar.login>squ_eb8f84182d255fadbe230724608849f1250c6a7c</sonar.login>
+    <sonar.login>squ_df8960ba9dfc4af6ea5aa660784d99bea09e71d6</sonar.login>
 
 
         <!-- Generic properties -->
