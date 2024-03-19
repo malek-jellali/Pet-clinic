@@ -7,7 +7,8 @@ This project aims to set up a CI/CD pipeline for the Pet Clinic application usin
 ### Note: Ensure JDK, Maven, Docker, and Jenkins are installed on your system.
 
 ### Pipeline Configuration
-```groovy
+
+```bash
 pipeline {
     agent any
 
@@ -41,6 +42,8 @@ pipeline {
         }
     }
 }
+```
+
 
 
 ## Challenges Faced
@@ -52,3 +55,8 @@ pipeline {
 - **Automation of the CI/CD Pipeline:** Streamlines the software delivery process, reducing manual intervention and improving efficiency.
 - **Effective Tool Utilization:** Leveraging tools like Jenkins, Docker, and SonarQube enhances development workflows, ensuring code quality and reliability.
 - **Continuous Improvement:** Emphasizing continuous improvement and iteration is crucial for optimizing the CI/CD pipeline and enhancing overall development practices.
+
+
+
+
+
